@@ -8,12 +8,12 @@ function About() {
         <h1>About Me</h1>
         <Row>
           <Col xs={4}>
-            {' '}
+           
             <img
               src='https://i.imgur.com/H3p4bWG.png'
               alt='Trenton Creamer'
               class='img-fluid'
-            ></img>{' '}
+            ></img>
           </Col>
           <Col xs={8} className='ml-50'>
             Welcome to my portfolio page. My name is Trenton Creamer, and I am a
