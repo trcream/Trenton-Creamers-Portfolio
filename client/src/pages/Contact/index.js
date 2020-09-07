@@ -8,9 +8,9 @@ function Contact(){
         <Card>
           <Card.Body>
             <Form>
-              <Form.Group controlId='formBasicEmail'>
+              <Form.Group >
                 <Form.Label>Name</Form.Label>
-                <Form.Control type='email' placeholder='Enter Name' />
+                <Form.Control placeholder='Enter Name' />
                 <Form.Text className='text-muted'>
                   We'll never share your name with anyone else.
                 </Form.Text>
