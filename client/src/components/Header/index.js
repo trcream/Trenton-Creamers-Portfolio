@@ -4,7 +4,10 @@ import "./style.css"
 
 const styles = {
   headerStyle: {
-    background: "black",
+    backgroundImage:
+      'url(' +
+      'https://cdn.pixabay.com/photo/2015/08/27/09/22/banner-909710_1280.jpg' +
+      ')',
   },
   headingStyle: {
     fontSize: 30,
@@ -15,11 +18,9 @@ const styles = {
 
 function Header() {
   return (
-    <Jumbotron>
-      <header style={styles.headerStyle} className="header">
-        <h1 style={styles.headingStyle}>
-          Welcome to Trenton Creamer's Portfolio Page
-        </h1>
+    <Jumbotron style={styles.headerStyle}>
+      <header >
+        
       </header>
     </Jumbotron>
   );

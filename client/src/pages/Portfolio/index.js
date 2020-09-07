@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Card, Button, Form, Container } from "react-bootstrap";
+import { Row, Col, Container } from "react-bootstrap";
 
 function Portfolio(){
     return (
@@ -10,12 +10,10 @@ function Portfolio(){
             <Row>
               <Col xs={6}>
                 <Row>
-                  <a
-                    href='https://billyhao12.github.io/Weather-Event-Planner/'
-                    target='_blank'
-                  >
+                  <a href='https://billyhao12.github.io/Weather-Event-Planner/'>
                     <img
                       src={require('../../assets/images/events.png')}
+                      alt={'Code'}
                       width='150'
                     />
                   </a>
@@ -31,12 +29,10 @@ function Portfolio(){
               </Col>
               <Col xs={6}>
                 <Row>
-                  <a
-                    href='https://uwproject2bootcamp.herokuapp.com/'
-                    target='_blank'
-                  >
+                  <a href='https://uwproject2bootcamp.herokuapp.com/'>
                     <img
                       src={require('../../assets/images/MedHandoff150.png')}
+                      alt={'Medical Cross'}
                       width='150'
                     />
                   </a>
@@ -54,12 +50,10 @@ function Portfolio(){
             <Row>
               <Col xs={6}>
                 <Row>
-                  <a
-                    href='https://trcream.github.io/Scheduler/'
-                    target='_blank'
-                  >
+                  <a href='https://trcream.github.io/Scheduler/'>
                     <img
                       src={require('../../assets/images/calendar.png')}
+                      alt={'Calendar'}
                       width='150'
                     />
                   </a>
@@ -73,12 +67,10 @@ function Portfolio(){
               </Col>
               <Col xs={6}>
                 <Row>
-                  <a
-                    href='https://trcream.github.io/Weather-Dashboard/'
-                    target='_blank'
-                  >
+                  <a href='https://trcream.github.io/Weather-Dashboard/'>
                     <img
                       src={require('../../assets/images/weather.png')}
+                      alt={'Sun'}
                       width='150'
                     />
                   </a>
@@ -96,12 +88,10 @@ function Portfolio(){
             <Row>
               <Col xs={6}>
                 <Row>
-                  <a
-                    href='https://trcream.github.io/Homework-04/'
-                    target='_blank'
-                  >
+                  <a href='https://trcream.github.io/Homework-04/'>
                     <img
                       src={require('../../assets/images/quiz.PNG')}
+                      alt={'Quiz'}
                       width='150'
                     />
                   </a>
@@ -115,13 +105,11 @@ function Portfolio(){
               </Col>
               <Col xs={6}>
                 <Row>
-                  <a
-                    href='https://trcream.github.io/homework-03/'
-                    target='_blank'
-                  >
+                  <a href='https://trcream.github.io/homework-03/'>
                     <img
                       src={require('../../assets/images/codebreaker.jpg')}
                       width='150'
+                      alt={'Code Matrix'}
                     />
                   </a>
                 </Row>
